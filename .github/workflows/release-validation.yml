@@ -1,5 +1,7 @@
 name: Release Pipeline Validation
 
+# Lab-only marker: force workflow indexing in the newly created validation repository.
+
 on:
   push:
     branches:
