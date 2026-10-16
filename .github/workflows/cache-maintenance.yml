@@ -1,5 +1,7 @@
 name: Cache Maintenance
 
+# Lab-only marker: force workflow indexing in the validation repository.
+
 on:
   pull_request_target:
     types: [closed]
